@@ -1,0 +1,13 @@
+{
+  "name"         : "weatherParse",
+  "version"      : "0.0.1",
+  "description"  : "",
+  "main"         : "parser.js",
+  "author"       : "Abdullah",
+  "dependencies" : {
+    "express"    : "latest",
+    "request"    : "latest",
+    "cheerio"    : "latest",
+    "jsonfile"  : "latest"
+  }
+}
