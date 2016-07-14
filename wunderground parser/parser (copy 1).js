@@ -8,11 +8,11 @@ var jf = require('jsonfile');
 
 //Append file func
 var appendObject = function(obj,path){
-  var configFile = fs.readFileSynsc(path);
+  var configFile = fs.readFile(path);
   var config = JSON.parse(configFile);
   config.push(obj);
   var configJSON = JSON.stringify(config);
-  fs.writeFileSync(path, configJSON);
+  fs.writeFile(path, configJSON);
 console.log(path);
 };
 
@@ -67,11 +67,15 @@ json.date = year + "-" + month + "-" + day;
 })
 
 
-appendObject(json, './output/weather.json');
+//appendObject(json, './output/weather.json');
+fs.writeFile('output/weather.json', JSON.stringify(json, null, 4), function(err){
 
+    console.log('File successfully written! - Check your project directory for the output.json file');
+
+})
 
 // Finally, we'll just send out a message to the browser reminding you that this app does not have a UI.
-//res.send('Check your console!')
+res.send('Check your console!')
 
 
 }
@@ -84,24 +88,10 @@ appendObject(json, './output/weather.json');
 //APP PARSE
 app.get('/parse', function(req, res){
     
-//var start = new Date("01/01/2014");
-var start = new Date("01/01/2012");
-var end = new Date("06/13/2016");
+parseURL(2015,01,01);
 
-console.log(start);
-console.log(end);
-    
-    while(start <= end){
-    	var month = ((start.getMonth()+1)>=10)?(start.getMonth()+1):'0'+(start.getMonth()+1);
-    	var day = ((start.getDate())>=10)? (start.getDate()) : '0' + (start.getDate());
-    	var year = start.getFullYear();
-    	//var date = day+"-"+month+"-"+year; //yyyy-mm-dd
-       //console.log(`${date + ""}`);           
-	parseURL(year,month,day);
 
-       var newDate = start.setDate(start.getDate() + 1);
-       start = new Date(newDate);
-    }
+
     })
 
 
