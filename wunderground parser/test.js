@@ -13,7 +13,7 @@ console.log(end);
       
       
       
-       console.log(`${date + ""}`);           
+       console.log(date);           
 
        var newDate = start.setDate(start.getDate() + 1);
        start = new Date(newDate);
