@@ -13,7 +13,7 @@ function appendObject(obj,path){
   config.push(obj);
   var configJSON = JSON.stringify(config);
   fs.writeFileSync(path, configJSON);
-console.log(path);
+console.log(configJSON);
 };
 
 
@@ -42,7 +42,7 @@ function parseURL(year,month, day){
 		json.date1 = date1;
 
 		//DOW
-		//json.dow = date1.split(",")[0];
+		json.dow = date1.split(",")[0].toString();
 
 		//divide url
 		var splitted = url.split("/");
@@ -66,13 +66,33 @@ function parseURL(year,month, day){
 
 		//mean =  $('.wx-value').first().text();
 		 $('#historyTable').filter(function(){
-				var data = $(this);
-				mean = $('.wx-value').first().text();
-				json.meanT = mean;
-		})
+			var data = $(this);
+
+			var meanT = $($('tbody tr')[1]);
+			json.meanT = $(meanT.children(1)[1]).find(".wx-value").text();
+
+			var maxT = $($('tbody tr')[2]);
+			json.maxT = $(maxT.children(1)[1]).find(".wx-value").text();
+
+			var minT = $($('tbody tr')[3]);
+			json.minT = $(minT.children(1)[1]).find(".wx-value").text();
+})
+
+		/*
+		var meanT = $($('#historyTable tbody tr')[1]);
+		json.meanT = $(meanT.children(1)[1]).find(".wx-value").text();
+
+		//max
+		var maxT = $($('#historyTable tbody tr')[2]);
+		json.maxT = $(maxT.children(1)[1]).find(".wx-value").text();
+
+		//min
+		var minT = $($('#historyTable tbody tr')[3]);
+		json.minT = $(minT.children(1)[1]).find(".wx-value").text();
+		*/
 
 
-		appendObject(json, './output/weather.json');
+		appendObject(this.json, './output/weather.json');
 
 		/*
 		stream.write(",");
@@ -102,7 +122,7 @@ function parseURL(year,month, day){
 app.get('/parse', function(req, res){
     
 //var start = new Date("01/01/2014");
-var start = new Date("01/01/2012");
+var start = new Date("01/01/2000");
 var end = new Date("06/13/2016");
 
 console.log(start);
@@ -112,7 +132,24 @@ console.log(end);
 stream.write("[");
 stream.close();    
 */
-//fs.appendFileSync("output/weather.json", "[");
+
+var templ =
+[
+{
+	"city":"Izmir, Turkey",
+	"date":"2015-1-3",
+	"date1":"Saturday, January 3, 2015",
+	"year":"2015",
+	"month":"1",
+	"day":"3",
+	"dow":"",
+	"meanT":"4",
+	"maxT":"",
+	"minT":""
+	}
+];
+var strTemp = JSON.stringify(templ);
+fs.writeFileSync("output/weather.json", strTemp );
 
 
     while(start <= end){

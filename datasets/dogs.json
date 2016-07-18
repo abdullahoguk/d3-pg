@@ -1,0 +1,461 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "zzzz-zzzz",
+      "name" : "Map of Declared Dangerous Dogs",
+      "attribution" : "City of Austin",
+      "attributionLink" : "http://www.austintexas.gov",
+      "averageRating" : 0,
+      "category" : "Public Safety",
+      "description" : "No declared Dangerous Dog in the City of Austin and Travis County should ever be running at large. They are court ordered to be restrained at all times and should be wearing a large tag identifying them as a Dangerous Dog. They have attacked in the past. The owner is required to provide $100,000 in financial responsibility. If they attack again the court could order them put to sleep. *Last updated January 2015*",
+      "displayType" : "map",
+      "downloadCount" : 0,
+      "indexUpdatedAt" : 1462883019,
+      "moderationStatus" : true,
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 0,
+      "publicationAppendEnabled" : false,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1462476620,
+      "rowsUpdatedBy" : "p3dk-w2wy",
+      "tableId" : 10534290,
+      "totalTimesRated" : 0,
+      "viewCount" : 0,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : 254246798,
+        "name" : "First Name ",
+        "dataTypeName" : "text",
+        "fieldName" : "first_name",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 3987603,
+        "width" : 232,
+        "format" : { }
+      }, {
+        "id" : 254246799,
+        "name" : "Last Name ",
+        "dataTypeName" : "text",
+        "fieldName" : "last_name",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 3987604,
+        "width" : 220,
+        "format" : { }
+      }, {
+        "id" : 254246800,
+        "name" : "Address",
+        "dataTypeName" : "text",
+        "fieldName" : "address",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 3987605,
+        "width" : 184,
+        "format" : { }
+      }, {
+        "id" : 254246801,
+        "name" : "Zip Code ",
+        "dataTypeName" : "number",
+        "fieldName" : "zip_code",
+        "position" : 4,
+        "renderTypeName" : "number",
+        "tableColumnId" : 3987606,
+        "width" : 208,
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "true",
+          "align" : "right"
+        }
+      }, {
+        "id" : 254246802,
+        "name" : "Description of Dog",
+        "dataTypeName" : "text",
+        "fieldName" : "description_of_dog",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 3987607,
+        "width" : 316,
+        "format" : { }
+      }, {
+        "id" : 254246803,
+        "name" : "Location",
+        "dataTypeName" : "location",
+        "fieldName" : "location",
+        "position" : 6,
+        "renderTypeName" : "location",
+        "tableColumnId" : 3987608,
+        "width" : 196,
+        "format" : { },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      } ],
+      "displayFormat" : {
+        "color" : "#990000",
+        "distinctLegend" : true,
+        "plot" : {
+          "locationId" : 3987608,
+          "titleId" : 3987605,
+          "descriptionColumns" : [ {
+            "tableColumnId" : 3987603
+          }, {
+            "tableColumnId" : 3987604
+          }, {
+            "tableColumnId" : 3987607
+          } ]
+        },
+        "viewport" : {
+          "ymin" : 30.019840262244,
+          "xmin" : -99.05455410138,
+          "ymax" : 30.632200771151,
+          "xmax" : -95.677906152632
+        },
+        "bkgdLayers" : [ {
+          "layerKey" : "Google Roadmap",
+          "alias" : "Roadmap",
+          "opacity" : 1
+        }, {
+          "layerKey" : "Google Satellite",
+          "alias" : "Satellite",
+          "opacity" : 1
+        }, {
+          "layerKey" : "Google Terrain",
+          "alias" : "Terrain",
+          "opacity" : 1
+        } ],
+        "flyoutsNoLabel" : true,
+        "exclusiveLayers" : true,
+        "type" : "google",
+        "viewDefinitions" : [ {
+          "uid" : "self",
+          "color" : "#990000",
+          "viewport" : {
+            "ymin" : 30.153394,
+            "xmin" : -98.041889,
+            "ymax" : 30.433237,
+            "xmax" : -97.401936
+          },
+          "plot" : {
+            "locationId" : 3987608,
+            "titleId" : 3987605,
+            "descriptionColumns" : [ {
+              "tableColumnId" : 3987603
+            }, {
+              "tableColumnId" : 3987604
+            }, {
+              "tableColumnId" : 3987607
+            } ]
+          },
+          "flyoutsNoLabel" : true,
+          "type" : "google",
+          "plotStyle" : "point"
+        } ],
+        "plotStyle" : "point"
+      },
+      "grants" : [ {
+        "inherited" : true,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "rdfSubject" : "0",
+        "jsonQuery" : {
+          "where" : {
+            "children" : [ {
+              "subColumn" : "LONGITUDE",
+              "columnFieldName" : "location",
+              "value" : -99.242145654088,
+              "operator" : "GREATER_THAN"
+            }, {
+              "subColumn" : "LONGITUDE",
+              "columnFieldName" : "location",
+              "value" : -95.490314599924,
+              "operator" : "LESS_THAN"
+            }, {
+              "subColumn" : "LATITUDE",
+              "columnFieldName" : "location",
+              "value" : 29.985820233972,
+              "operator" : "GREATER_THAN"
+            }, {
+              "subColumn" : "LATITUDE",
+              "columnFieldName" : "location",
+              "value" : 30.666220799423,
+              "operator" : "LESS_THAN"
+            } ],
+            "operator" : "AND"
+          }
+        },
+        "custom_fields" : {
+          "Additional Information" : {
+            "Department" : "Animal Services",
+            "Frequency" : "As Needed"
+          }
+        },
+        "availableDisplayTypes" : [ "map", "table", "fatrow", "page" ],
+        "renderTypeConfig" : {
+          "visible" : {
+            "map" : true,
+            "table" : true
+          },
+          "active" : {
+            "table" : {
+              "id" : "self"
+            }
+          }
+        }
+      },
+      "query" : {
+        "filterCondition" : {
+          "type" : "operator",
+          "value" : "AND",
+          "children" : [ {
+            "type" : "operator",
+            "value" : "AND",
+            "children" : [ {
+              "type" : "operator",
+              "value" : "GREATER_THAN",
+              "children" : [ {
+                "columnId" : 254246803,
+                "type" : "column",
+                "value" : "LONGITUDE"
+              }, {
+                "type" : "literal",
+                "value" : "-99.242145654088"
+              } ]
+            }, {
+              "type" : "operator",
+              "value" : "LESS_THAN",
+              "children" : [ {
+                "columnId" : 254246803,
+                "type" : "column",
+                "value" : "LONGITUDE"
+              }, {
+                "type" : "literal",
+                "value" : "-95.490314599924"
+              } ]
+            }, {
+              "type" : "operator",
+              "value" : "GREATER_THAN",
+              "children" : [ {
+                "columnId" : 254246803,
+                "type" : "column",
+                "value" : "LATITUDE"
+              }, {
+                "type" : "literal",
+                "value" : "29.985820233972"
+              } ]
+            }, {
+              "type" : "operator",
+              "value" : "LESS_THAN",
+              "children" : [ {
+                "columnId" : 254246803,
+                "type" : "column",
+                "value" : "LATITUDE"
+              }, {
+                "type" : "literal",
+                "value" : "30.666220799423"
+              } ]
+            } ]
+          } ],
+          "metadata" : {
+            "unifiedVersion" : 2
+          }
+        }
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "p3dk-w2wy",
+        "displayName" : "Austin Animal Center",
+        "profileImageUrlLarge" : "/api/users/p3dk-w2wy/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/p3dk-w2wy/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/p3dk-w2wy/profile_images/TINY",
+        "roleName" : "editor",
+        "screenName" : "Austin Animal Center",
+        "rights" : [ "create_datasets", "view_domain", "create_pages", "view_goals", "view_dashboards", "view_story", "view_unpublished_story" ]
+      },
+      "tags" : [ "dangerous", "dogs", "public safety", "pets", "animals" ],
+      "viewFilters" : {
+        "type" : "operator",
+        "value" : "AND",
+        "children" : [ {
+          "type" : "operator",
+          "value" : "AND",
+          "children" : [ {
+            "type" : "operator",
+            "value" : "GREATER_THAN",
+            "children" : [ {
+              "columnId" : 254246803,
+              "type" : "column",
+              "value" : "LONGITUDE"
+            }, {
+              "type" : "literal",
+              "value" : "-99.242145654088"
+            } ]
+          }, {
+            "type" : "operator",
+            "value" : "LESS_THAN",
+            "children" : [ {
+              "columnId" : 254246803,
+              "type" : "column",
+              "value" : "LONGITUDE"
+            }, {
+              "type" : "literal",
+              "value" : "-95.490314599924"
+            } ]
+          }, {
+            "type" : "operator",
+            "value" : "GREATER_THAN",
+            "children" : [ {
+              "columnId" : 254246803,
+              "type" : "column",
+              "value" : "LATITUDE"
+            }, {
+              "type" : "literal",
+              "value" : "29.985820233972"
+            } ]
+          }, {
+            "type" : "operator",
+            "value" : "LESS_THAN",
+            "children" : [ {
+              "columnId" : 254246803,
+              "type" : "column",
+              "value" : "LATITUDE"
+            }, {
+              "type" : "literal",
+              "value" : "30.666220799423"
+            } ]
+          } ]
+        } ],
+        "metadata" : {
+          "unifiedVersion" : 2
+        }
+      },
+      "flags" : [ "unsaved" ]
+    }
+  },
+  "data" : [ [ 28, "04675C6A-3D58-43AC-989B-61F396B90F79", 28, 1462474399, "400523", 1462476614, "708639", null, "Melissa", "Spellmann", "2815 Oak Ridge Dr", "78669", "“Lacy,” spayed female, Labrador Retriever Mix", [ "{\"address\":\"2815 Oak Ridge Dr\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78669\"}", "30.368907", "-98.036141", null, false ] ]
+, [ 31, "63BFFCF8-BAF0-42CC-AE31-50292AD3685B", 31, 1462474399, "400523", 1462474416, "708639", null, "Melissa", "Spellmann", "2815 Oak Ridge Dr", "78669", "“Sparkles,” spayed female, Brindle Plott Hound mix", [ "{\"address\":\"2815 Oak Ridge Dr\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78669\"}", "30.368907", "-98.036141", null, false ] ]
+, [ 63, "F41C056D-730F-4DD8-90AD-C6CCD6803F77", 63, 1462474399, "400523", 1462476620, "708639", null, "Marcia", "Miller", "2813 Tradewind Dr.", "78669", "\"Flint\" neutered male, blue Blue Lacy mix", [ "{\"address\":\"2813 Tradewind Dr.\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78669\"}", "30.362084", "-98.024851", null, false ] ]
+, [ 27, "3141FD45-6CBD-4DE9-A688-362DC2BC9267", 27, 1462474399, "400523", 1462474416, "708639", null, "Jack", "Barnett", "13101 Winding Creek Rd", "78736", "\"Holly\" Spayed female, white Labrador/Pitbull mix", [ "{\"address\":\"13101 Winding Creek Rd\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78736\"}", "30.240521", "-97.992054", null, false ] ]
+, [ 3, "F42297E8-70D3-4DCE-819B-DBC8893AD84C", 3, 1462474399, "400523", 1462476620, "708639", null, "Kim", "Sadler", "7916 Adelaide Dr ", "78739", "\"Sydney\" spayed female, Tricolor/Black Beagle ", [ "{\"address\":\"7916 Adelaide Dr\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78739\"}", "30.19158", "-97.919402", null, false ] ]
+, [ 1, "283588D6-1CE9-48E4-BD4A-40FFF5775C32", 1, 1462474399, "400523", 1462474416, "708639", null, "Matthew ", "Rafacz", "7400 Espira Drive ", "78739", "\"Charlie\" neutered male, black and white Labrador Retriever mix ", [ "{\"address\":\"7400 Espira Drive\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78739\"}", "30.184748", "-97.917591", null, false ] ]
+, [ 62, "D5259084-B69F-45C3-9E93-30218A5FD721", 62, 1462474399, "400523", 1462476620, "708639", null, "Scott", "Cummings", "412 Summer Alcove Way", "78732", "\"Austin\" male, red merle Australian Shepherd", [ "{\"address\":\"412 Summer Alcove Way\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78732\"}", "30.340744", "-97.912968", null, false ] ]
+, [ 22, "283D2CD0-9CAC-409A-B766-7A2CF3F9FA7E", 22, 1462474399, "400523", 1462476615, "708639", null, "Penny", "Arnold", "12904 Schleicher Trl", "78732", "“Salty,” male, brown and white Boxer", [ "{\"address\":\"12904 Schleicher Trl\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78732\"}", "30.381982", "-97.893992", null, false ] ]
+, [ 35, "964F7D5B-8603-400B-88B7-F8576802811F", 35, 1462474399, "400523", 1462476620, "708639", null, "Jim", "Rehage", "14028 Lakeview Dr", "78732", "“Iko,” neutered male, Brown Brindle Catahoula  mix", [ "{\"address\":\"14028 Lakeview Dr\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78732\"}", "30.414976", "-97.89322", null, false ] ]
+, [ 43, "891EEBD9-A03A-4043-8C00-73FAEE0AFEAF", 43, 1462474399, "400523", 1462476620, "708639", null, "Carrie", "Westfall", "7701 Callbram Ln", "78736", "“June,” female, Brindle Pit Bull Terrier  ", [ "{\"address\":\"7701 Callbram Ln\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78736\"}", "30.233294", "-97.892511", null, false ] ]
+, [ 56, "35AA1C0F-B92F-4A28-8C70-5C0FC1798AC3", 56, 1462474399, "400523", 1462476620, "708639", null, "Drew", "Scruggs", "6204 Skahan Ln.", "78739", "\"Taz\" neutered male, brown brindle Boxer mix", [ "{\"address\":\"6204 Skahan Ln.\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78739\"}", "30.187183", "-97.892496", null, false ] ]
+, [ 57, "24762F7A-7F2A-44B1-86F3-FE39673AAC3E", 57, 1462474399, "400523", 1462476620, "708639", null, "Drew", "Scruggs", "6204 Skahan Ln.", "78739", "\"Lahlo\" spayed female, tan Boxer mix", [ "{\"address\":\"6204 Skahan Ln.\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78739\"}", "30.187183", "-97.892496", null, false ] ]
+, [ 47, "2CA0D4AA-082E-4124-ACF2-73D2F0EAAD91", 47, 1462474399, "400523", 1462474416, "708639", null, "Jeff", "Crawford", "9321 Bavaria Ln.", "78749", "\"Nala\" spayed female, white and brown brindle Pit Bull mix", [ "{\"address\":\"9321 Bavaria Ln.\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78749\"}", "30.202255", "-97.874029", null, false ] ]
+, [ 6, "A7D32A62-5D56-4C9F-A3D1-82182EFA69F3", 6, 1462474399, "400523", 1462476620, "708639", null, "Adele", "Johnson", "1302 Lipan Trl", "78733", "\"Tank,\" neutered, black/grey German Wire-haired Pointer ", [ "{\"address\":\"1302 Lipan Trl\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78733\"}", "30.33921", "-97.870528", null, false ] ]
+, [ 8, "5B532471-2D3D-400E-AD16-ACF53EAC2712", 8, 1462474399, "400523", 1462476620, "708639", null, "Mike", "Kool", "1302 Canyon Edge Dr", "78733", "“Milo,” neutered male, white/brown, German Short-haired Pointer", [ "{\"address\":\"1302 Canyon Edge Dr\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78733\"}", "30.336045", "-97.864337", null, false ] ]
+, [ 51, "D94E1F72-9000-4A2E-B9FA-D2FD400C1A20", 51, 1462474399, "400523", 1462476620, "708639", null, "Julia", "Knox", "7200 Reaburn St.", "78749", "\"Aries\" spayed female, blue Cane Corso", [ "{\"address\":\"7200 Reaburn St.\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78749\"}", "30.213462", "-97.836052", null, false ] ]
+, [ 50, "10DAB081-31BF-46CA-9CC6-E8C1B3897C5F", 50, 1462474399, "400523", 1462476620, "708639", null, "Julia", "Knox", "7200 Reaburn St.", "78749", "\"Dozer\" neutered male, white and red Rhodesian Ridgeback", [ "{\"address\":\"7200 Reaburn St.\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78749\"}", "30.213462", "-97.836052", null, false ] ]
+, [ 34, "CEC85E37-3048-410A-BD09-C562D40190FD", 34, 1462474399, "400523", 1462474416, "708639", null, "Timothy ", "LeBlanc", "5931 Cape Coral Dr", "78746", "\"Miles Davis,\" female, gold/white Golden Retriever ", [ "{\"address\":\"5931 Cape Coral Dr\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78746\"}", "30.278937", "-97.836048", null, false ] ]
+, [ 18, "6DC533FF-9A91-48B8-BDD8-147E7A750F9D", 18, 1462474399, "400523", 1462476615, "708639", null, "Jill ", "Kolansinski ", "5336 Magdelena Dr", "78704", "“Tug,” male, brown merle and white Queensland Heeler mix", [ "{\"address\":\"5336 Magdelena Dr\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78704\"}", "30.257704", "-97.833415", null, false ] ]
+, [ 24, "A4F0D7F7-85BF-4170-86E8-84A5A319E59E", 24, 1462474399, "400523", 1462476614, "708639", null, "Mikal/Gerti", "Gonzales", "7600 Bloomfield Ave", "78745", "\"Buddy,\" male, blue brindle and white Pitbull mix", [ "{\"address\":\"7600 Bloomfield Ave\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78745\"}", "30.204901", "-97.828946", null, false ] ]
+, [ 30, "FCD25192-DAB3-44E8-A1C6-04844CFD85A8", 30, 1462474399, "400523", 1462476615, "708639", null, "Tim", "Carrington", "2718 Jorwoods Dr", "78745", "“Ladybird,” Spayed female, yellow brindle and white Pit Bull mix", [ "{\"address\":\"2718 Jorwoods Dr\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78745\"}", "30.201176", "-97.821866", null, false ] ]
+, [ 17, "47D49F06-DECE-4248-8B0F-F854870D1370", 17, 1462474399, "400523", 1462476615, "708639", null, "Johnny", "Adamo", "11305 Cezanne St ", "78726", "“Tyson,” neutered male, German Shepherd", [ "{\"address\":\"11305 Cezanne St\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78726\"}", "30.44945", "-97.820962", null, false ] ]
+, [ 42, "DE42D351-BEA0-4A0C-96F5-0F283C365FF4", 42, 1462474399, "400523", 1462476615, "708639", null, "Rebecca", "Byrnes", "2401 Cecil Dr", "78744", "“Pinky,” female, white Boxer mix", [ "{\"address\":\"2401 Cecil Dr\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78744\"}", "30.165036", "-97.773046", null, false ] ]
+, [ 39, "9D705EB5-FEBF-4E90-BF30-9BAB86C6EDEF", 39, 1462474399, "400523", 1462476615, "708639", null, "Rebecca", "Byrnes", "2401 Cecil Dr", "78744", "“Shebba,” female, white Pit Bull mix ", [ "{\"address\":\"2401 Cecil Dr\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78744\"}", "30.165036", "-97.773046", null, false ] ]
+, [ 46, "0F73EA19-A9D4-40ED-B248-510A7994A57D", 46, 1462474399, "400523", 1462476614, "708639", null, "Gabriel", "Alverez", "8701 Bluffstone Cv. #2202", "78759", "\"Clementine\" spayed female, black and white Austrailian Cattle dog", [ "{\"address\":\"8701 Bluffstone Cv. #2202\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78759\"}", "30.389267", "-97.766356", null, false ] ]
+, [ 5, "16FCC828-1349-4192-A5C1-1C6B21DC522E", 5, 1462474399, "400523", 1462474416, "708639", null, "Maria", "Davila", "4420 Dovemeadow Dr", "78744", "“Tiny,” male, tan and white Boxer mix", [ "{\"address\":\"4420 Dovemeadow Dr\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78744\"}", "30.188962", "-97.750896", null, false ] ]
+, [ 7, "FD48AF51-C433-4056-B55E-6FA4FA0C7EDD", 7, 1462474399, "400523", 1462476620, "708639", null, "Andrew ", "Willingham", "6604 Jamaica Ct", "78757", "\"Cleo\" female, black Labrador Retriever mix ", [ "{\"address\":\"6604 Jamaica Ct\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78757\"}", "30.347375", "-97.748886", null, false ] ]
+, [ 44, "FB91F4C7-8ABB-46D0-B5C9-5F77C6282DFA", 44, 1462474399, "400523", 1462476620, "708639", null, "Miguel", "Garcia", "4812 Candletree Ln", "78744", "“Lucky,” male, black and tri-colored Chihuahua", [ "{\"address\":\"4812 Candletree Ln\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78744\"}", "30.188398", "-97.74624", null, false ] ]
+, [ 11, "B07F3603-2DCC-4144-902E-0B437230EE7D", 11, 1462474399, "400523", 1462476620, "708639", null, "Richard ", "Ashcraft", "11511 Catalonia Dr", "78759", "“Bumpy,” neutered male, white and black Bull Terrier", [ "{\"address\":\"11511 Catalonia Dr\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78759\"}", "30.410848", "-97.739218", null, false ] ]
+, [ 33, "E1050EA9-5C15-4984-8324-971389605205", 33, 1462474399, "400523", 1462476614, "708639", null, "Richard ", "Ashcraft", "11511 Catalonia Dr", "78759", "“Little Girl,” spayed female, brown brindle and white Bull Terrier", [ "{\"address\":\"11511 Catalonia Dr\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78759\"}", "30.410848", "-97.739218", null, false ] ]
+, [ 32, "2E141897-42DB-46E6-911E-7F967959402C", 32, 1462474399, "400523", 1462474416, "708639", null, "Katherine ", "Maloney", "11504 Murcia Dr", "78759", "“Lexie,” female, white and black Pit Bull  ", [ "{\"address\":\"11504 Murcia Dr\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78759\"}", "30.409891", "-97.738812", null, false ] ]
+, [ 54, "A0C2A78F-EEE9-4061-B772-77B13D937609", 54, 1462474399, "400523", 1462476620, "708639", null, "Jonathon", "Rich", "5107 Saddle Cir.", "78727", "\"Zues\" neutered male, blue and white Great Dane", [ "{\"address\":\"5107 Saddle Cir.\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78727\"}", "30.422686", "-97.733608", null, false ] ]
+, [ 9, "760C7023-133E-4B52-B39A-BCE1FEECE110", 9, 1462474399, "400523", 1462476620, "708639", null, "Jill Scott", "Carse", "1411 Justin Ln", "78757", "“Nippy,” female, black and tan Shepherd mix", [ "{\"address\":\"1411 Justin Ln\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78757\"}", "30.341012", "-97.727488", null, false ] ]
+, [ 25, "93C2A428-228D-4000-A011-21296E3AFBD9", 25, 1462474399, "400523", 1462474416, "708639", null, "Ronald", "Vasey", "4704 Sunridge Ct", "78741", "“Rita,” female, brown Australian Shepherd  ", [ "{\"address\":\"4704 Sunridge Ct\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78741\"}", "30.219579", "-97.727328", null, false ] ]
+, [ 55, "F3F82283-E7AD-4EA5-B807-AE909BBC5B84", 55, 1462474399, "400523", 1462476620, "708639", null, "Natasha", "Rosofsky", "1910 Haskell St.", "78722", "\"Chuy\" spayed female, brown brindle and white Boxer mix", [ "{\"address\":\"1910 Haskell St.\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78722\"}", "30.252278", "-97.725848", null, false ] ]
+, [ 52, "CE4E880B-DE23-4B7F-876C-B38ACFA74649", 52, 1462474399, "400523", 1462476620, "708639", null, "Ali", "Marcus", "3705 Robinson Ave.", "78722", "\"Lucy\" spayed female, brown brindle and white Boxer mix", [ "{\"address\":\"3705 Robinson Ave.\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78722\"}", "30.293536", "-97.719088", null, false ] ]
+, [ 16, "4581DB10-887D-4D86-9480-09D38EB1634B", 16, 1462474399, "400523", 1462476615, "708639", null, "Andres", "Castro", "2520 East 3rd St", "78702", "“Keely,” spayed female, Red Labrador Retriever mix", [ "{\"address\":\"2520 East 3rd St\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78702\"}", "30.255743", "-97.714709", null, false ] ]
+, [ 20, "3D08FF5A-CDE1-4361-B7BC-C3E70730A2C5", 20, 1462474399, "400523", 1462476620, "708639", null, "Leslie ", "Matthews", "3703 Grayson Ln", "78722", "\"Abbo\" neutered male, white/brown Great Pyrenees mix ", [ "{\"address\":\"3703 Grayson Ln\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78722\"}", "30.288239", "-97.708983", null, false ] ]
+, [ 41, "3189F4E7-D92B-4039-A626-25E596087E85", 41, 1462474399, "400523", 1462476620, "708639", null, "Robert ", "McKinley", "1205 Quail Park Dr", "78758", "\"Cinnamon\" female, red and white Border Collie ", [ "{\"address\":\"1205 Quail Park Dr\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78758\"}", "30.365438", "-97.706068", null, false ] ]
+, [ 53, "7F838C16-02BF-4D17-BA1F-7430D4BC82E9", 53, 1462474399, "400523", 1462476620, "708639", null, "Luis", "Padilla", "1304 Neans Dr.", "78758", "\"Diego\" neutered male, cream and white Great Pyrenees", [ "{\"address\":\"1304 Neans Dr.\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78758\"}", "30.376535", "-97.700762", null, false ] ]
+, [ 29, "2998CC98-0688-42F1-A364-2BF997305797", 29, 1462474399, "400523", 1462476615, "708639", null, "Ernesto", "Lozano ", "11929 Rosethorn Dr", "78758", "“G,” male, brown Pit Bull/Boxer mix  ", [ "{\"address\":\"11929 Rosethorn Dr\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78758\"}", "30.400166", "-97.700383", null, false ] ]
+, [ 60, "E5475FC4-610D-4A64-98E6-6768486AF6FB", 60, 1462474399, "400523", 1462476620, "708639", null, "Austin Animal", "Center", "7201 Levander Loop", "78702", "\"Bella\" spayed female, Tan and White Pit Bull mix", [ "{\"address\":\"7201 Levander Loop\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78702\"}", "30.251079", "-97.691727", null, false ] ]
+, [ 15, "3971C35E-132B-4975-AE60-7633D3DE5266", 15, 1462474399, "400523", 1462476620, "708639", null, "Orlando", "Martinez", "7002 Montana St", "78741", "“Lily,” female, black and white Chihuahua", [ "{\"address\":\"7002 Montana St\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78741\"}", "30.228851", "-97.691627", null, false ] ]
+, [ 45, "EE0D9618-3003-41DE-A705-6E993BBE53ED", 45, 1462474399, "400523", 1462476620, "708639", null, "Chester ", "Kudlek", "2401 Emmett Pkwy", "78728", "\"Gucio\" male, black Giant Schnauzer", [ "{\"address\":\"2401 Emmett Pkwy\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78728\"}", "30.452414", "-97.677731", null, false ] ]
+, [ 36, "74905A12-EFED-421C-B9CD-A4D916C7AFAE", 36, 1462474399, "400523", 1462476620, "708639", null, "Valerie", "Raven", "4707 Carsonhill Dr", "78723", "“Sissy,” female, tan and black German Shepherd", [ "{\"address\":\"4707 Carsonhill Dr\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78723\"}", "30.288236", "-97.676578", null, false ] ]
+, [ 58, "F2063495-F827-46F2-A626-9C950D6341BB", 58, 1462474399, "400523", 1462476620, "708639", null, "Dave", "Smith", "6319 Parliament Dr. #A", "78724", "\"Kilo\" neutered male, red and white Pit Bull mix", [ "{\"address\":\"6319 Parliament Dr. #A\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78724\"}", "30.286891", "-97.658975", null, false ] ]
+, [ 59, "76A6E0D0-2E88-4DA4-828D-70D76FBC0970", 59, 1462474399, "400523", 1462476620, "708639", null, "Dave", "Smith", "6319 Parliament Dr. #A", "78724", "\"Ginger\" spayed female, red and white American Fox Terrier mix", [ "{\"address\":\"6319 Parliament Dr. #A\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78724\"}", "30.286891", "-97.658975", null, false ] ]
+, [ 21, "F92B347E-6286-4F5E-BBAE-7386B44F6015", 21, 1462474399, "400523", 1462476620, "708639", null, "Ruth", "Delong-Pyron", "903 Vincent Place ", "78660", "\"Sunny,\" Neutered Male, Brown/Tan Shepherd mix", [ "{\"address\":\"903 Vincent Place\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78660\"}", "30.443807", "-97.651466", null, false ] ]
+, [ 26, "84CBBA78-F10F-423C-8C23-FDA725340F47", 26, 1462474399, "400523", 1462474416, "708639", null, "Ruth", "Delong-Pyron", "903 Vincent Place ", "78660", "\"Missy,\" Spayed Female, red/white Pitbull mix", [ "{\"address\":\"903 Vincent Place\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78660\"}", "30.443807", "-97.651466", null, false ] ]
+, [ 40, "5D16B00F-DB79-4CE0-AFE6-81A9488B8DA7", 40, 1462474399, "400523", 1462476620, "708639", null, "Deirdre", "Mitchell", "11824 Morning View Dr", "78617", "“Lia,” spayed female, white/black Pit Bull/Jack Russell mix", [ "{\"address\":\"11824 Morning View Dr\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78617\"}", "30.15396", "-97.647841", null, false ] ]
+, [ 23, "26FD3679-AFF3-404D-BCF6-354BA85468A1", 23, 1462474399, "400523", 1462476614, "708639", null, "Deirdre", "Mitchell", "11824 Morning View Dr", "78617", "“Lady Bug” spayed female, white/black Pit bull/Jack Russell mix", [ "{\"address\":\"11824 Morning View Dr\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78617\"}", "30.15396", "-97.647841", null, false ] ]
+, [ 61, "C9FFD589-0038-4D8B-BC78-3F73157B41BE", 61, 1462474399, "400523", 1462476620, "708639", null, "Enrique", "Aguilar", "14707 Reynero Ln. #E", "78617", "\"Negro\" neutered male, black, tan and white Chihuahua mix", [ "{\"address\":\"14707 Reynero Ln. #E\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78617\"}", "30.089307", "-97.64347", null, false ] ]
+, [ 19, "292B7317-CCFC-4EFF-8C07-28051B5B71B6", 19, 1462474399, "400523", 1462476620, "708639", null, "Jesse", "Carlin", "905 Tudor House Road ", "78660", "\"Maya,\" spayed female, brown/white Pitbull mix", [ "{\"address\":\"905 Tudor House Road\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78660\"}", "30.421455", "-97.640466", null, false ] ]
+, [ 10, "8F38AECE-EE7F-45CD-ACA1-BEE284FF5EF8", 10, 1462474399, "400523", 1462476620, "708639", null, "Jazzias", "Flores", "14329 Teacup Ln", "78660", "“Maia,” female, white/tan Pit Bull mix", [ "{\"address\":\"14329 Teacup Ln\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78660\"}", "30.418056", "-97.636821", null, false ] ]
+, [ 38, "B516B9ED-B86E-4DA7-8F3E-7FF57C50DCA5", 38, 1462474399, "400523", 1462476614, "708639", null, "Jazzias", "Flores", "14329 Teacup Ln", "78660", "“Boomer”, neutered brown Pit Bull Mix", [ "{\"address\":\"14329 Teacup Ln\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78660\"}", "30.418056", "-97.636821", null, false ] ]
+, [ 49, "7F5436A3-8B52-4E47-AE42-4785B3EDA9AE", 49, 1462474399, "400523", 1462476620, "708639", null, "John", "Hernandez", "5205 Bantom Woods Bnd.", "78721", "\"Jonah\" female, brown and white Pit Bull mix", [ "{\"address\":\"5205 Bantom Woods Bnd.\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78721\"}", "30.273542", "-97.631229", null, false ] ]
+, [ 48, "D0E35A7D-24C8-4014-8C30-E76A2A20264D", 48, 1462474399, "400523", 1462476615, "708639", null, "John", "Hernandez", "5205 Bantom Woods Bnd.", "78721", "\"Blue\" male, blue Pit Bull mix", [ "{\"address\":\"5205 Bantom Woods Bnd.\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78721\"}", "30.273542", "-97.631229", null, false ] ]
+, [ 12, "3F41A284-2B97-47CD-B9CC-3220F8674042", 12, 1462474399, "400523", 1462474416, "708639", null, "Carla", "Ward", "7128 Mumruffin Ln", "78754", "“Lincoln,” male, fawn and white Pit Bull Terrier", [ "{\"address\":\"7128 Mumruffin Ln\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78754\"}", "30.34478", "-97.61014", null, false ] ]
+, [ 13, "C6E5B8E8-9B09-43D1-8ABF-FBED8BD5FACD", 13, 1462474399, "400523", 1462476614, "708639", null, "Adam", "Banda", "4809 Clear View Dr", "78725", "“Weezer,” female, Tan/Brown German Shepherd", [ "{\"address\":\"4809 Clear View Dr\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78725\"}", "30.244119", "-97.581393", null, false ] ]
+, [ 14, "147F9E43-EE4B-4A50-A6C4-A3A775284910", 14, 1462474399, "400523", 1462476615, "708639", null, "Adrian", "Rivera-Clemente ", "18300 Belfry Pass", "78653", "“Diva,” intact female, tri-color Pit Bull", [ "{\"address\":\"18300 Belfry Pass\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78653\"}", "30.31697", "-97.53009", null, false ] ]
+, [ 37, "0FCF1073-F684-4536-9B8B-3CC24649E007", 37, 1462474399, "400523", 1462476614, "708639", null, "Maria", "Gonzalez", "20608 Ed Acklin Rd", "78653", "“Coronel,” Male, Tan/Black German Shepherd mix", [ "{\"address\":\"20608 Ed Acklin Rd\",\"city\":\"\",\"state\":\"TX\",\"zip\":\"78653\"}", "30.27633", "-97.49126", null, false ] ]
+ ]
+}

@@ -1,0 +1,14 @@
+{
+  "keywords": [
+    "can-buy", 
+    "gov", 
+    "meteorology", 
+    "science", 
+    "uk", 
+    "weather", 
+    "workshop-20081101"
+  ], 
+  "description": "Discussed at [Workshop on Public Information, 2008-11-02](http://okfn.org/wiki/PublicInformation).\r\n\r\nSome weather forecast data is available from the [Met Office Data Catalogue](http://www.ecomet.eu/members/UK.htm).", 
+  "name": "uk-weather-forecast-data", 
+  "title": "UK Weather Forecast Data"
+}
